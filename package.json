@@ -1,0 +1,32 @@
+{
+  "name": "sweep",
+  "version": "1.0.0",
+  "description": "CLI to find unused assets, files, dependencies, and exports in frontend apps",
+  "main": "lib/index.js",
+  "bin": {
+    "sweep": "./bin/cli.js"
+  },
+  "files": ["bin", "lib", "README.md"],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "sweep",
+    "unused-assets",
+    "cleanup",
+    "frontend",
+    "knip",
+    "dead-code",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
