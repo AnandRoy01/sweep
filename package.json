@@ -1,7 +1,7 @@
 {
   "name": "unused-sweep",
-  "version": "1.0.0",
-  "description": "CLI to find unused assets, files, dependencies, and exports in frontend apps",
+  "version": "1.0.1",
+  "description": "Find unused images, static assets, and media in React/Next/Vite apps; optional Knip for unused deps and exports. CLI for monorepos and single repos.",
   "main": "lib/index.js",
   "bin": {
     "unused-sweep": "bin/cli.js"
@@ -18,11 +18,29 @@
   "keywords": [
     "unused-sweep",
     "unused-assets",
-    "cleanup",
-    "frontend",
-    "knip",
+    "unused-images",
+    "unused-files",
     "dead-code",
-    "cli"
+    "dead-assets",
+    "asset-cleanup",
+    "static-assets",
+    "images",
+    "frontend",
+    "react",
+    "nextjs",
+    "next.js",
+    "vite",
+    "webpack",
+    "monorepo",
+    "cleanup",
+    "lint",
+    "cli",
+    "knip",
+    "unused-dependencies",
+    "unused-exports",
+    "code-quality",
+    "refactor",
+    "bundle-size"
   ],
   "author": "Anand Roy (https://github.com/AnandRoy01)",
   "license": "MIT",

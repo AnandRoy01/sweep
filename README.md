@@ -1,6 +1,8 @@
 # unused-sweep
 
-CLI to find unused assets, files, dependencies, and exports in frontend apps. Works with monorepos and single-app setups, with whitelisting and optional [Knip](https://github.com/webpro/knip) integration.
+CLI to find **unused images and static assets** (and optionally unused deps/exports via [Knip](https://github.com/webpro/knip)) in **React**, **Next.js**, **Vite**, and other frontend apps—single repo or **monorepo**, with whitelisting and JSON output for CI.
+
+**Search / tags:** `unused assets`, `unused images`, `dead code`, `asset cleanup`, `static files`, `monorepo`, `knip`, `frontend lint`, `bundle cleanup`.
 
 ## Install
 
@@ -112,6 +114,12 @@ npm login
 npm publish --dry-run
 npm publish
 ```
+
+## Improving discoverability
+
+npm does not support separate “categories”; **`keywords`** in `package.json` and your **description** drive [npm search](https://www.npmjs.com/search). This package lists terms like unused assets, React, Next.js, Vite, monorepo, and Knip.
+
+On **GitHub**, open your repo → **⚙ Settings** (or the gear on **About**) → add **Topics** such as: `unused-assets`, `dead-code`, `react`, `nextjs`, `vite`, `monorepo`, `knip`, `cli`, `static-assets`, `frontend-tools`. Topics help people find the repo, which often leads them to the npm page via the README link.
 
 ## License
 
